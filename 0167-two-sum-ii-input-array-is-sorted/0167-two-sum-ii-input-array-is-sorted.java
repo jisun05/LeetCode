@@ -5,16 +5,19 @@ class Solution {
         int right = numbers.length - 1;
 
         while (left < right) {
-            int sum = numbers[left] + numbers[right];
-            if (sum == target) {
-                return new int[] { left + 1, right + 1 };
-            } else if (sum < target) {
-                left++;
-            } else if (sum > target) {
+
+            if (numbers[left] + numbers[right] == target) {
+               
+                return new int[]{left+1, right+1};
+            } else if (numbers[left] + numbers[right] > target) {
                 right--;
+            } else {
+                left++;
             }
+
         }
 
-        return new int[] {};
+          return new int[]{-1, -1};
+
     }
 }
