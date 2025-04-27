@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/jisun05/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/jisun05/LeetCode/tree/master/0283-move-zeroes) |
 | [0344-reverse-string](https://github.com/jisun05/LeetCode/tree/master/0344-reverse-string) |
+| [0392-is-subsequence](https://github.com/jisun05/LeetCode/tree/master/0392-is-subsequence) |
 | [0680-valid-palindrome-ii](https://github.com/jisun05/LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [1168-duplicate-zeros](https://github.com/jisun05/LeetCode/tree/master/1168-duplicate-zeros) |
 ## Greedy
@@ -39,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0125-valid-palindrome](https://github.com/jisun05/LeetCode/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/jisun05/LeetCode/tree/master/0344-reverse-string) |
+| [0392-is-subsequence](https://github.com/jisun05/LeetCode/tree/master/0392-is-subsequence) |
 | [0680-valid-palindrome-ii](https://github.com/jisun05/LeetCode/tree/master/0680-valid-palindrome-ii) |
 ## Linked List
 |  |
@@ -52,4 +54,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/jisun05/LeetCode/tree/master/0234-palindrome-linked-list) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0392-is-subsequence](https://github.com/jisun05/LeetCode/tree/master/0392-is-subsequence) |
 <!---LeetCode Topics End-->
