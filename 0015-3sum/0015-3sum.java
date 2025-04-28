@@ -2,28 +2,26 @@ class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
 
 
-        Arrays.sort(nums);
-        //하나를 고정시키고 움직여서?
-        //값하나 빼고 나머지들을 다른 배열에 복사해서 투포인트로 체크?          
+        Arrays.sort(nums);     // 정렬 
         List<List<Integer>> result = new ArrayList<>();
    
-        for (int i = 0; i < nums.length - 2; i++) {
+        for (int first = 0; first < nums.length - 2; first++) {  
 
-            if(i > 0 && nums[i] == nums[i-1]) continue;
-            int first = i+1;
+            if(first > 0 && nums[first] == nums[first-1]) continue;
+            int second = first+1;
             int last = nums.length -1 ;
 
-            while(first < last){
-                int target = nums[i] + nums[first] + nums[last];
+            while(second < last){
+                int target = nums[first] + nums[second] + nums[last];
                 if(target ==0){
-                    result.add(Arrays.asList(nums[i], nums[first],nums[last]));
-                    first++;
+                    result.add(Arrays.asList(nums[first], nums[second],nums[last]));
+                    second++;
                     last--;
-                    while(first < last && nums[first] == nums [first-1]) first++;
-                    while(first < last && nums[last] == nums[last+1]) last--;
+                    while(second < last && nums[second] == nums [second-1]) second++;
+                    while(second < last && nums[last] == nums[last+1]) last--;
 
                 }else if(target < 0){
-                    first++;
+                    second++;
                 }else{
                     last--;
                 }
