@@ -1,30 +1,32 @@
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
-
-        //sorted in non-decreasing order
-        // count 1 
-        // compare
         
-        int left = 0;
-        int right = numbers.length - 1;
+        int first = 0;
+        int last = numbers.length -1;
 
-        while(left < right){
-            int sum = numbers[left] + numbers[right];
-
-            if(sum > target){
-                right--;
-            }else if( sum < target){
-                left++;
+        while(first < last){
+            if(numbers[first] + numbers[last] == target){
+                return new int[]{first+1, last+1};  
+            }
+            else if(numbers[first] + numbers[last] < target){
+                first++;
             }else{
-                return new int[]{left+1, right+1};
+                last--;
             }
 
+ 
         }
 
-        return new int[]{-1};
 
 
 
-        
+   return new int[]{-1};
+
+
+
+
+
+
+
     }
 }
