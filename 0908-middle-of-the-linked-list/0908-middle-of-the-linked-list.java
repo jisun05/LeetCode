@@ -3,21 +3,27 @@
  * public class ListNode {
  *     int val;
  *     ListNode next;
- *     ListNode(int x) { val = x; next = null; }
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
 class Solution {
     public ListNode middleNode(ListNode head) {
-        ListNode slow = head;
-        ListNode fast = head;
+
+            ListNode slow = head;
+            ListNode fast = head;
+
+            while(fast != null && fast.next != null ){
+                slow = slow.next;
+                fast = fast.next.next;
+            }
+
+
+            return slow;
+
+
+
         
-        // fast가 끝에 도달할 때까지 반복
-        while (fast != null && fast.next != null) {
-            slow = slow.next;         // 한 칸 이동
-            fast = fast.next.next;    // 두 칸 이동
-        }
-        
-        // slow가 중간 노드를 가리킴
-        return slow;
     }
 }
