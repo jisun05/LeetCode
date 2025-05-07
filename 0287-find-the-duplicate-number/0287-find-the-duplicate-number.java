@@ -1,22 +1,20 @@
 class Solution {
     public int findDuplicate(int[] nums) {
-         //   8 1  1  9  8   7  4
-         int slow = nums[0];
-         int fast = nums[0];
-        do{//I'm sure that at least one duplicates is there
-        //nums.length == n + 1
-        slow = nums[slow];
-        fast = nums[nums[fast]];     
-        
-        }while(slow !=fast);
 
+            Arrays.sort(nums); // 1  2 2 3 4
 
-        //find the head of loop
-        fast = nums[0];
-        while(slow != fast) {
-            slow = nums[slow];
-            fast = nums[fast];
+        for(int first =0; first < nums.length -1 ; first++){
+
+            int slow = nums[first];  
+            int fast = nums[nums[first]];   
+
+            if(slow ==fast){
+                return slow;
+            }
         }
-        return fast;
+
+            return -1;
+
+        
     }
 }
