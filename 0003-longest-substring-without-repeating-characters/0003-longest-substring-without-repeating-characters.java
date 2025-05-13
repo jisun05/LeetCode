@@ -18,11 +18,11 @@ class Solution {
                 check.remove(s.charAt(left));
                 left++;
             }
-
+                check.add(s.charAt(right));
         }
 
 
-        check.add(s.charAt(right));
+        
     }
 
         return maxLength;
