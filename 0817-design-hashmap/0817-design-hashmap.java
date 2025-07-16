@@ -13,18 +13,13 @@ class MyHashMap {
     }
     //I was wondering — if I initialize the entire map with -1 to indicate 'no value,' does that prevent me from storing -1 as a real value? How would I handle that case?
     public int get(int key) {
-        //if no mapping for the key
-        if(map[key] == -1){
-            return -1;
-        }
+     
 
         return map[key];
     }
     
-    public void remove(int key) {
-        if(map[key] != -1){
-            map[key] = -1;
-        }
+    public void remove(int key) {   
+            map[key] = -1;      
     }
 }
 
