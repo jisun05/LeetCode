@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/jisun05/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/jisun05/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/jisun05/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/jisun05/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/jisun05/LeetCode/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/jisun05/LeetCode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/jisun05/LeetCode/tree/master/0287-find-the-duplicate-number) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/jisun05/LeetCode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/jisun05/LeetCode/tree/master/0018-4sum) |
 | [0088-merge-sorted-array](https://github.com/jisun05/LeetCode/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/jisun05/LeetCode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/jisun05/LeetCode/tree/master/0242-valid-anagram) |
 | [1019-squares-of-a-sorted-array](https://github.com/jisun05/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 ## Math
@@ -106,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/jisun05/LeetCode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/jisun05/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0141-linked-list-cycle](https://github.com/jisun05/LeetCode/tree/master/0141-linked-list-cycle) |
+| [0169-majority-element](https://github.com/jisun05/LeetCode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/jisun05/LeetCode/tree/master/0242-valid-anagram) |
 | [0817-design-hashmap](https://github.com/jisun05/LeetCode/tree/master/0817-design-hashmap) |
 | [0940-fruit-into-baskets](https://github.com/jisun05/LeetCode/tree/master/0940-fruit-into-baskets) |
@@ -126,4 +129,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0817-design-hashmap](https://github.com/jisun05/LeetCode/tree/master/0817-design-hashmap) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/jisun05/LeetCode/tree/master/0169-majority-element) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/jisun05/LeetCode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
