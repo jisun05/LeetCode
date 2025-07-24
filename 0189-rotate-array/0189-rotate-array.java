@@ -1,18 +1,33 @@
 class Solution {
     public void rotate(int[] nums, int k) {
-        k = k % nums.length; 
-        reverse(nums, 0, nums.length - 1); // 전체 뒤집기
-        reverse(nums, 0, k - 1);           // 앞쪽 k개 뒤집기
-        reverse(nums, k, nums.length - 1); // 나머지 뒤집기
+
+        //if k is bigger than nums.length?
+         k = k%nums.length;
+
+        reverse(nums, 0, nums.length-1);
+        reverse(nums,0, k-1);
+        reverse(nums,k,nums.length-1);
+
+        
     }
 
-    private void reverse(int[] nums, int start, int end) {
-        while (start < end) {
-            int temp = nums[start];
-            nums[start] = nums[end];
-            nums[end] = temp;
-            start++;
-            end--;
+
+    private int[] reverse(int[] nums, int first, int last){
+
+        while(first< last){
+            int save = nums[first];
+            nums[first] = nums[last];
+            nums[last] = save;
+
+            first++;
+            last--;
         }
+
+        return nums;
     }
+
+
+
+
+
 }
