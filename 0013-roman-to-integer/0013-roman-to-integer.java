@@ -1,21 +1,23 @@
 class Solution {
-    public int romanToInt(String s) {
+    public int romanToInt(String s) {   
 
-        int sum =0;  //50   55   
-        //"LVIII"
-        for(int i =0 ; i < s.length();i++){
-            int change = changeToNum(s.charAt(i));
+        int result =0;
+
+        for(int i =0; i < s.length(); i++){
+            int current = changeToNum(s.charAt(i));
             
-            if(i + 1 <s.length() && changeToNum(s.charAt(i)) < changeToNum(s.charAt(i+1))){
-                sum -=changeToNum(s.charAt(i));
+            if(i+1 < s.length() && changeToNum(s.charAt(i+1)) > current){
+                result -=current;
             }else{
-                     sum += change;    
+                result += current;
             }
 
+        }      
+    return result;
         }
 
-        return sum;
-    }
+        
+    
      private int changeToNum(char roman){
               switch(roman){
                   case 'I' : return 1;
