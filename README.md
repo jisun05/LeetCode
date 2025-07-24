@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/jisun05/LeetCode/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/jisun05/LeetCode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/jisun05/LeetCode/tree/master/0287-find-the-duplicate-number) |
+| [0380-insert-delete-getrandom-o1](https://github.com/jisun05/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0817-design-hashmap](https://github.com/jisun05/LeetCode/tree/master/0817-design-hashmap) |
 | [0940-fruit-into-baskets](https://github.com/jisun05/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [1019-squares-of-a-sorted-array](https://github.com/jisun05/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0189-rotate-array](https://github.com/jisun05/LeetCode/tree/master/0189-rotate-array) |
+| [0380-insert-delete-getrandom-o1](https://github.com/jisun05/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 ## Hash Table
 |  |
 | ------- |
@@ -123,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/jisun05/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/jisun05/LeetCode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/jisun05/LeetCode/tree/master/0242-valid-anagram) |
+| [0380-insert-delete-getrandom-o1](https://github.com/jisun05/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0817-design-hashmap](https://github.com/jisun05/LeetCode/tree/master/0817-design-hashmap) |
 | [0940-fruit-into-baskets](https://github.com/jisun05/LeetCode/tree/master/0940-fruit-into-baskets) |
 ## Bit Manipulation
@@ -137,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/jisun05/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0817-design-hashmap](https://github.com/jisun05/LeetCode/tree/master/0817-design-hashmap) |
 ## Hash Function
 |  |
@@ -154,4 +158,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0274-h-index](https://github.com/jisun05/LeetCode/tree/master/0274-h-index) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/jisun05/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
