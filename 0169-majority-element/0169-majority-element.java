@@ -1,24 +1,24 @@
 class Solution {
     public int majorityElement(int[] nums) {
 
-            //calculate nums.length/2
-            //0
-            //2,3
-            //asap return? or calculate all and return?
-            int majority =  nums.length/2;
-
+            //make majority 
+            int majority = nums.length/2;
             HashMap<Integer, Integer> count = new HashMap<>();
+
+            //check each number 
             for(int num : nums){
-                int often = count.getOrDefault(num, 0) +1;
-                if(often > majority ) return num;
-
-                count.put(num, often);
+  
+                count.put(num, count.getOrDefault(num,0)+1);
+                int often = count.get(num);
+                if(often > majority) return num;
             }
-                return -1;
-        
-        
-                  }
 
-      
+
+            return -1;
+
+
+
+
         
     }
+}
