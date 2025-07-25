@@ -13,8 +13,8 @@ class Solution {
 
         for(int i=0; i<k/2 ; i++){
             int save = nums[i]; 
-            nums[i] = nums[k-1];     
-            nums[k-1] = save;
+            nums[i] = nums[k-1-i];     
+            nums[k-1-i] = save;
         }
 
         for(int i=nums.length-1; i>=k; i--){
