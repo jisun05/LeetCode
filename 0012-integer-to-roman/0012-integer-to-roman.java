@@ -1,25 +1,19 @@
 class Solution {
     public String intToRoman(int num) {
 
-        int[] values  = {1000,  900, 500, 400, 100,  90,  50,  40,  10,   9,   5,   4,   1};
-        String[] symbols = {"M",  "CM","D", "CD","C", "XC","L", "XL","X",  "IX","V", "IV","I"};
 
+            int[] numeral ={1,4,5,9,10,40,50,90,100,400,500,900,1000};
 
-        StringBuilder stringBuilder = new StringBuilder();
+            String[] symbol ={"I","IV","V","IX","X","XL","L","XC","C","CD","D","CM","M"};
+            StringBuilder sb = new StringBuilder();
+            for(int i=numeral.length-1; i>=0;i--){
 
-        for(int i =0; i < values.length; i++){
-            int v =values[i];
-            
-            while( num >= v ){
-                num -= v;
-                stringBuilder.append(symbols[i]);
+                while(num >= numeral[i]){
+                    num = num - numeral[i];
+                    sb.append(symbol[i]);
+
+                }
             }
-
-            if(num == 0) break;
-        }
-        
-        return stringBuilder.toString();
-
-        
+        return sb.toString();
     }
 }
