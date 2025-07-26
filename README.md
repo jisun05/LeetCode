@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/jisun05/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/jisun05/LeetCode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/jisun05/LeetCode/tree/master/0344-reverse-string) |
+| [0383-ransom-note](https://github.com/jisun05/LeetCode/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/jisun05/LeetCode/tree/master/0392-is-subsequence) |
 | [0680-valid-palindrome-ii](https://github.com/jisun05/LeetCode/tree/master/0680-valid-palindrome-ii) |
 ## Linked List
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/jisun05/LeetCode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/jisun05/LeetCode/tree/master/0242-valid-anagram) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jisun05/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0383-ransom-note](https://github.com/jisun05/LeetCode/tree/master/0383-ransom-note) |
 | [0817-design-hashmap](https://github.com/jisun05/LeetCode/tree/master/0817-design-hashmap) |
 | [0940-fruit-into-baskets](https://github.com/jisun05/LeetCode/tree/master/0940-fruit-into-baskets) |
 ## Bit Manipulation
@@ -176,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/jisun05/LeetCode/tree/master/0169-majority-element) |
+| [0383-ransom-note](https://github.com/jisun05/LeetCode/tree/master/0383-ransom-note) |
 ## Counting Sort
 |  |
 | ------- |
