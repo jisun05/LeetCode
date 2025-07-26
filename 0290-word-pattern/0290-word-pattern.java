@@ -24,7 +24,7 @@ class Solution {
             
 
             if(sToPattern.containsKey(w)){
-                if(sToPattern.get(w) != c){
+                if(!sToPattern.get(w).equals(c)){
                     return false;
                 }
             }else{
