@@ -1,26 +1,29 @@
 class Solution {
     public boolean isAnagram(String s, String t) {
 
-        //s = "cat"
-        //t = "ca"
-        if(s.length() != t.length()) return false;
 
-        HashMap<Character, Integer> checkChar = new HashMap<>();
+        if(s.length() != t.length()) {return false;}
+        Map<Character, Integer> map = new HashMap<>();
 
-        for(char splitS : s.toCharArray()){
-            //"anagram"
-            checkChar.put(splitS, checkChar.getOrDefault(splitS, 0)+1);
+       
+        for(int i=0;i< s.length();i++){
+            if(map.containsKey(s.charAt(i))){
+                map.put(s.charAt(i), map.getOrDefault(s.charAt(i),0)+1);
+            }else{
+                map.put(s.charAt(i),1);
+            }
         }
 
-        for(char splitT : t.toCharArray()){
-           if(checkChar.containsKey(splitT) && checkChar.get(splitT) > 0){
-               checkChar.put(splitT , checkChar.get(splitT)-1);
-           }else{
-            return false;
-           }       
+        for(int i =0;i<t.length();i++){
+            if(!map.containsKey(t.charAt(i)) || map.getOrDefault(t.charAt(i),0) == 0){
+                return false;
+            }else{
+               map.put(t.charAt(i), map.get(t.charAt(i))-1);
+            }
+
         }
+
 
         return true;
-        
     }
 }
