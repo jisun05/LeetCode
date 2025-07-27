@@ -9,13 +9,15 @@ class Solution {
         for(int i=0;i< sSplit.length;i++){
             if(patternToString.containsKey(pattern.charAt(i)) && !patternToString.get(pattern.charAt(i)).equals(sSplit[i])){
                  return false;
-            }
+            }else{patternToString.put(pattern.charAt(i), sSplit[i]); }
                 
             if(stringToPattern.containsKey(sSplit[i]) && !stringToPattern.get(sSplit[i]).equals(pattern.charAt(i)) ){
-               
-            }  
-           patternToString.put(pattern.charAt(i), sSplit[i]); 
-           stringToPattern.put(sSplit[i], pattern.charAt(i));
+               return false;
+            }  else{
+                stringToPattern.put(sSplit[i], pattern.charAt(i));
+            }
+           
+           
         }
         
         StringBuilder sb = new StringBuilder();
@@ -23,10 +25,7 @@ class Solution {
             sb.append(stringToPattern.get(sSplit[i]));
         }
 
-            if(!sb.toString().equals(pattern)){
-                return false;
-            }
-
+           
             return true;
 
     }
