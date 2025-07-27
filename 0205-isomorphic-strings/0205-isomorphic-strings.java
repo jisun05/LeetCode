@@ -1,43 +1,36 @@
 class Solution {
     public boolean isIsomorphic(String s, String t) {
 
-if(s.length() != t.length()) return false;
-            Map<Character, Character> sT = new HashMap<>();
-            Map<Character, Character> tS = new HashMap<>();
+        if(s.length() != t.length()) return false;
 
 
+        Map<Character, Character> sKeyMap = new HashMap<>();
+        Map<Character, Character> tKeyMap = new HashMap<>();
 
-for(int i=0; i<s.length();i++){
-    char c1 = s.charAt(i);
-    char c2 = t.charAt(i);
+        //s is key 
+        for(int i=0 ; i< s.length();i++){
+            //키가 없을떄만 넣기?
+            if(!sKeyMap.containsKey(s.charAt(i))){
+                sKeyMap.put(s.charAt(i), t.charAt(i));
+            }   
 
-
-
-    //s->t
-    if(sT.containsKey(c1)){
-        if(sT.get(c1) != c2) return false;
-    }else{
-        sT.put(c1,c2);
-    }
-
-    //t->s
-    if(tS.containsKey(c2)){
-        if(tS.get(c2) != c1){ return false;
+            if(!tKeyMap.containsKey(t.charAt(i))){
+                tKeyMap.put(t.charAt(i),s.charAt(i));
+            }
         }
-    }else{
-        tS.put(c2,c1);
-       
-        
-        
-    }
 
- 
+        for(int i=0; i< t.length();i++){
+            if(!sKeyMap.get(s.charAt(i)).equals(t.charAt(i))){
+                return false;
+            }
+            if(!tKeyMap.get(t.charAt(i)).equals(s.charAt(i))){
+                return false;
+            }
 
-}
+        }
 
 
-   return true;
-
+        return true;
         
     }
 }
