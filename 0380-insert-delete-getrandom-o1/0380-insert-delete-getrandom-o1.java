@@ -1,42 +1,48 @@
 class RandomizedSet {
-
-    private HashMap<Integer,Integer> map;
-    private ArrayList<Integer> array;
-    private Random random;
     
+    private Map<Integer, Integer>map;
+    private List<Integer> randomArray;
+    private Random rand;
+
+
     public RandomizedSet() {
         map = new HashMap<>();
-        array = new ArrayList();
-        random = new Random();
+        randomArray = new ArrayList<>();
+        rand = new Random();
     }
     
     public boolean insert(int val) {
-        if(map.containsKey(val)) return false;
-        map.put(val, array.size());
-        array.add(val);     
-        return true;
+        if(map.containsKey(val)){
+            return false;
+        }else{
+            map.put(val,randomArray.size());
+            randomArray.add(val);
+            return true;
+        }
     }
     
     public boolean remove(int val) {
-        if(!map.containsKey(val)) return false;   
+         if (!map.containsKey(val)) {
+            return false;
+        }
 
-        int idxToRemove = map.get(val);
-        int lastElement = array.get(array.size() - 1);
+        int indexToRemove = map.get(val);
+        int lastVal = randomArray.get(randomArray.size() - 1);
 
-        // swap
-        array.set(idxToRemove, lastElement);
-        map.put(lastElement, idxToRemove);
+        // 마지막 값을 삭제할 인덱스로 이동
+        randomArray.set(indexToRemove, lastVal);
+        map.put(lastVal, indexToRemove);
 
-        //remove
+        // 리스트 마지막 요소 제거, map에서 val 제거
+        randomArray.remove(randomArray.size() - 1);
         map.remove(val);
-        array.remove(array.size()-1);
+
         return true;
-        
     }
     
     public int getRandom() {
-            int number= random.nextInt(array.size()); 
-            return array.get(number);
+        int randonResult = rand.nextInt(randomArray.size());
+        return randomArray.get(randonResult);
         
     }
 }
