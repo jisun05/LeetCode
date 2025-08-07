@@ -1,35 +1,36 @@
 class Solution {
     public boolean isPalindrome(String s) {
 
-        
         int first =0;
         int last = s.length()-1;
 
-        //대분자,문자아닌거 변환
-        while(first<last){
-            while(first<last&& !Character.isLetterOrDigit(s.charAt(first))){
-              first++;
+        //"A woman, a plan, a canal: Panamowa"
+
+        while(first < last){
+            
+            char currFirst = s.charAt(first);  //' '
+            char currLast = s.charAt(last);    //'w'
+            
+            if(!Character.isLetterOrDigit(currFirst)){
+                first++;
+            
+
             }
-               while(first<last &&!Character.isLetterOrDigit(s.charAt(last)) ){
+            else if(!Character.isLetterOrDigit(currLast)){
                 last--;
             }
+                                        //a        a
+           
 
-           if(Character.toLowerCase(s.charAt(first)) != Character.toLowerCase(s.charAt(last))){
-            return false;
-           }
-           first++;
-           last--;
-        }
-        return true;
+                 else {
+        		if (Character.toLowerCase(currFirst) != Character.toLowerCase(currLast)) {
+        			return false;
+        		}
+        		first++;
+        		last--;
+        	}
 
-        
-        
-
-     
-
-      
-
-
-
-    }
-}
+            
+              
+        }return true;
+}}
