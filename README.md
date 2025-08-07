@@ -138,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/jisun05/LeetCode/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/jisun05/LeetCode/tree/master/0013-roman-to-integer) |
 | [0189-rotate-array](https://github.com/jisun05/LeetCode/tree/master/0189-rotate-array) |
+| [0371-sum-of-two-integers](https://github.com/jisun05/LeetCode/tree/master/0371-sum-of-two-integers) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jisun05/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 ## Hash Table
 |  |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/jisun05/LeetCode/tree/master/0287-find-the-duplicate-number) |
+| [0371-sum-of-two-integers](https://github.com/jisun05/LeetCode/tree/master/0371-sum-of-two-integers) |
 ## Sliding Window
 |  |
 | ------- |
