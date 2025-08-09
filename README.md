@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/jisun05/LeetCode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/jisun05/LeetCode/tree/master/0189-rotate-array) |
 | [0209-minimum-size-subarray-sum](https://github.com/jisun05/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
+| [0217-contains-duplicate](https://github.com/jisun05/LeetCode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/jisun05/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/jisun05/LeetCode/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/jisun05/LeetCode/tree/master/0283-move-zeroes) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/jisun05/LeetCode/tree/master/0018-4sum) |
 | [0088-merge-sorted-array](https://github.com/jisun05/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/jisun05/LeetCode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/jisun05/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/jisun05/LeetCode/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/jisun05/LeetCode/tree/master/0274-h-index) |
 | [1019-squares-of-a-sorted-array](https://github.com/jisun05/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
@@ -152,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/jisun05/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/jisun05/LeetCode/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/jisun05/LeetCode/tree/master/0205-isomorphic-strings) |
+| [0217-contains-duplicate](https://github.com/jisun05/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/jisun05/LeetCode/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/jisun05/LeetCode/tree/master/0290-word-pattern) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jisun05/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
