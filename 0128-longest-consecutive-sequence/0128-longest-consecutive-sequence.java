@@ -1,29 +1,29 @@
+import java.util.HashSet;
+import java.util.Set;
+
 class Solution {
     public int longestConsecutive(int[] nums) {
-        if(nums == null || nums.length == 0) return 0;
+        if (nums.length < 2) return nums.length;
 
         Set<Integer> set = new HashSet<>();
+        for (int x : nums) set.add(x);
 
-        for(int num: nums){
-            set.add(num);
-        }
+        int maxLength = 0;
 
-        int maxLength=0;
+        for (int num : set) {
+            // 시작점: 이전 값이 없을 때 (MIN_VALUE는 무조건 시작점)
+            if (num == Integer.MIN_VALUE || !set.contains(num - 1)) {
+                int cur = num;
+                int len = 1;
 
-        for(int num: set){
-            if(!set.contains(num-1)){
-                int currentNum = num;
-                int length =1;
-
-                while(set.contains(currentNum+1)){
-                    currentNum++;
-                    length++;
+                // MAX_VALUE 가드로 wrap-around 방지
+                while (cur != Integer.MAX_VALUE && set.contains(cur + 1)) {
+                    cur++;
+                    len++;
                 }
-                maxLength = Math.max(maxLength, length);
+                maxLength = Math.max(maxLength, len);
             }
         }
-
         return maxLength;
-        
     }
 }
