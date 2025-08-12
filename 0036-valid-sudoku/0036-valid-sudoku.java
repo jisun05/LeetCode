@@ -1,39 +1,38 @@
 class Solution {
     public boolean isValidSudoku(char[][] board) {
+        int N = 9;
 
-        final int N = 9;  //스토쿠 길이
+        boolean[][] rowLine = new boolean[N][N];
+        boolean[][] colLine = new boolean[N][N];
+        boolean[][] square  = new boolean[N][N];
 
-        boolean[][] rowUsed = new boolean[N][N];
-        boolean[][] colUsed = new boolean[N][N];
-        boolean[][] boxUsed = new boolean[N][N];
 
-        for(int i=0; i<N;i++){
-            for(int j=0; j<N;j++){
+        for(int i =0 ;i <N;i++){
+            for(int j=0;j<N;j++){
                 char cell = board[i][j];
 
                 if(cell == '.') {
                     continue;
                 }
 
-                int d = cell -'1';
-                if(d < 0 || d >=9) return false;
+                int d = cell - '1';
+                if(d < 0 || d > 8) return false;
 
-                int boxIndex = (i/3) * 3 + (j/3);
+                int boxIndex = (i/3) *3 + (j/3);
 
-                if(rowUsed[i][d] || colUsed[j][d] || boxUsed[boxIndex][d]){
+                if(rowLine[i][d] || colLine[j][d] || square[boxIndex][d] ){
                     return false;
                 }
+                rowLine[i][d] = true;
+                colLine[j][d] = true;
+                square[boxIndex][d] = true;
 
-                rowUsed[i][d] = true;
-                colUsed[j][d] = true;
-                boxUsed[boxIndex][d] = true;
 
             }
         }
-    return true;
+
+        return true;
 
 
-
-        
     }
 }
