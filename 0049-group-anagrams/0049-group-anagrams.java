@@ -19,9 +19,8 @@ class Solution {
             }
                 map.get(key).add(s);
             
-           result = new ArrayList<>(map.values());
-           
         }
+          result = new ArrayList<>(map.values());
         return result;
         
     }
