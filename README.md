@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/jisun05/LeetCode/tree/master/0020-valid-parentheses) |
+| [0155-min-stack](https://github.com/jisun05/LeetCode/tree/master/0155-min-stack) |
 | [0234-palindrome-linked-list](https://github.com/jisun05/LeetCode/tree/master/0234-palindrome-linked-list) |
 ## Recursion
 |  |
@@ -188,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/jisun05/LeetCode/tree/master/0155-min-stack) |
 | [0271-encode-and-decode-strings](https://github.com/jisun05/LeetCode/tree/master/0271-encode-and-decode-strings) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jisun05/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0817-design-hashmap](https://github.com/jisun05/LeetCode/tree/master/0817-design-hashmap) |
