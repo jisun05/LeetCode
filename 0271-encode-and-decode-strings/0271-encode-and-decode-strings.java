@@ -15,18 +15,20 @@ public class Codec {
     // Decodes a single string to a list of strings.
     public List<String> decode(String s) {
         List<String> list = new ArrayList<>();
-        int i=0;  //출발점
-
-        while(i<s.length()){
-            int j =i;
-            while(s.charAt(j) != '#'){
-                j++;
+        int first =0;
+        int last = first;
+        while(first<s.length()){
+            
+            while(s.charAt(last) != '#'){
+                last++;
             }
-            int length = Integer.parseInt(s.substring(i,j));
-            int count = j+1;
-            int end = count + length;
-            list.add(s.substring(count,end));
-            i = end;
+            int length = Integer.parseInt(s.substring(first,last));
+             int start = last + 1;
+            int end = start + length;
+            list.add(s.substring(start,end));
+            
+            first = end;
+            last =first;
         }
         return list;
         }
