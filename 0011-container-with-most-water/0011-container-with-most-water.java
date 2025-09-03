@@ -1,25 +1,31 @@
 class Solution {
     public int maxArea(int[] height) {
 
-        int first =0;
-        int last = height.length-1;
+        //최대값 계산, 가로,세로
         int max = 0;
-        while(first<last){
-            int h = Math.min(height[first],height[last]);
-            int w = last-first;
-            max = Math.max(max, h*w);
+        int first = 0;
+        int last = height.length-1;
+
+
+        while(first<last){ 
+            int square = (last -first) * Math.min(height[first], height[last]);
+            max =  Math.max(max,square);
+
             if(height[first] < height[last]){
                 first++;
-            }else if(height[first] > height[last]){
+            }else if(height[first]> height[last]){
                 last--;
             }else{
                 first++;
                 last--;
             }
 
+
+
+
         }
-
-
-        return max;
+        
+       return max;
+        
     }
 }
