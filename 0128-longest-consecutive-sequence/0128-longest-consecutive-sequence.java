@@ -1,30 +1,35 @@
 class Solution {
     public int longestConsecutive(int[] nums) {
 
-        if(nums.length == 0) return 0;
-
+        //예외처리
+        if(nums.length == 0 || nums == null) return 0;
+        
+        //중복숫자 중복카운트 방지를 위해 셋에 넣기
         Set<Integer> set = new HashSet<>();
-        int maxLength =1;
-        for(int i: nums){
+        for(int i : nums){
             set.add(i);
         }
 
-        for(int check:set){
-            int length=1;
-            int currentStart=0;
-            if(!set.contains(check-1)){
-                 currentStart = check;
-            }else{
-                continue;
-            }
+        //연속된 길이 세기
+        int count =0;
 
-            while(set.contains(currentStart+1)){          
+        for(int i : set){
+            if(!set.contains(i-1)){
+                int current = i;
+                int length = 1;
+
+
+                  while(set.contains(current+1)){
+                current++;
                 length++;
-                currentStart++;
             }
 
-            maxLength = Math.max(length, maxLength);
+            count = Math.max(length, count);
+            }
+
+          
         }
-        return maxLength;
+
+        return count;
     }
 }
