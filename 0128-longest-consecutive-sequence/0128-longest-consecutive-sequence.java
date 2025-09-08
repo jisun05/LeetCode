@@ -3,33 +3,26 @@ class Solution {
 
         //예외처리
         if(nums.length == 0 || nums == null) return 0;
-        
-        //중복숫자 중복카운트 방지를 위해 셋에 넣기
+        //중복제거
         Set<Integer> set = new HashSet<>();
         for(int i : nums){
             set.add(i);
         }
-
-        //연속된 길이 세기
+        //count
         int count =0;
 
-        for(int i : set){
-            if(!set.contains(i-1)){
-                int current = i;
+        for(int n : set){
+            if(!set.contains(n-1)){
+                int current = n;
                 int length = 1;
+                while(set.contains(current+1)){
+                    current++;
+                    length++;
+                }
 
-
-                  while(set.contains(current+1)){
-                current++;
-                length++;
+                count = Math.max(count,length);
             }
-
-            count = Math.max(length, count);
-            }
-
-          
         }
-
         return count;
     }
 }
