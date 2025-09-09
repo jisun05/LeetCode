@@ -107,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/jisun05/LeetCode/tree/master/0344-reverse-string) |
 | [0383-ransom-note](https://github.com/jisun05/LeetCode/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/jisun05/LeetCode/tree/master/0392-is-subsequence) |
+| [0412-fizz-buzz](https://github.com/jisun05/LeetCode/tree/master/0412-fizz-buzz) |
 | [0680-valid-palindrome-ii](https://github.com/jisun05/LeetCode/tree/master/0680-valid-palindrome-ii) |
 ## Linked List
 |  |
@@ -160,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0189-rotate-array](https://github.com/jisun05/LeetCode/tree/master/0189-rotate-array) |
 | [0371-sum-of-two-integers](https://github.com/jisun05/LeetCode/tree/master/0371-sum-of-two-integers) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jisun05/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0412-fizz-buzz](https://github.com/jisun05/LeetCode/tree/master/0412-fizz-buzz) |
 | [1013-fibonacci-number](https://github.com/jisun05/LeetCode/tree/master/1013-fibonacci-number) |
 ## Hash Table
 |  |
@@ -282,4 +284,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1013-fibonacci-number](https://github.com/jisun05/LeetCode/tree/master/1013-fibonacci-number) |
+## Simulation
+|  |
+| ------- |
+| [0412-fizz-buzz](https://github.com/jisun05/LeetCode/tree/master/0412-fizz-buzz) |
 <!---LeetCode Topics End-->
