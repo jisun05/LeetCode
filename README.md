@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/jisun05/LeetCode/tree/master/0055-jump-game) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/jisun05/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/jisun05/LeetCode/tree/master/0088-merge-sorted-array) |
+| [0120-triangle](https://github.com/jisun05/LeetCode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/jisun05/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/jisun05/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/jisun05/LeetCode/tree/master/0128-longest-consecutive-sequence) |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0045-jump-game-ii](https://github.com/jisun05/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/jisun05/LeetCode/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/jisun05/LeetCode/tree/master/0070-climbing-stairs) |
+| [0120-triangle](https://github.com/jisun05/LeetCode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/jisun05/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/jisun05/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0392-is-subsequence](https://github.com/jisun05/LeetCode/tree/master/0392-is-subsequence) |
