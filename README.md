@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/jisun05/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/jisun05/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/jisun05/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0505-the-maze-ii](https://github.com/jisun05/LeetCode/tree/master/0505-the-maze-ii) |
 | [0817-design-hashmap](https://github.com/jisun05/LeetCode/tree/master/0817-design-hashmap) |
 | [0940-fruit-into-baskets](https://github.com/jisun05/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [1019-squares-of-a-sorted-array](https://github.com/jisun05/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
@@ -240,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/jisun05/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0505-the-maze-ii](https://github.com/jisun05/LeetCode/tree/master/0505-the-maze-ii) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -252,8 +254,25 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/jisun05/LeetCode/tree/master/0036-valid-sudoku) |
+| [0505-the-maze-ii](https://github.com/jisun05/LeetCode/tree/master/0505-the-maze-ii) |
 ## Database
 |  |
 | ------- |
 | [0176-second-highest-salary](https://github.com/jisun05/LeetCode/tree/master/0176-second-highest-salary) |
+## Depth-First Search
+|  |
+| ------- |
+| [0505-the-maze-ii](https://github.com/jisun05/LeetCode/tree/master/0505-the-maze-ii) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0505-the-maze-ii](https://github.com/jisun05/LeetCode/tree/master/0505-the-maze-ii) |
+## Graph
+|  |
+| ------- |
+| [0505-the-maze-ii](https://github.com/jisun05/LeetCode/tree/master/0505-the-maze-ii) |
+## Shortest Path
+|  |
+| ------- |
+| [0505-the-maze-ii](https://github.com/jisun05/LeetCode/tree/master/0505-the-maze-ii) |
 <!---LeetCode Topics End-->
