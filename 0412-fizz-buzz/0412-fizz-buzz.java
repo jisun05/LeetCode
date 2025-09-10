@@ -14,7 +14,7 @@ class Solution {
             }else if(check%5 ==0){
                 answer.add("Buzz");
             }else{
-                answer.add(Integer.toString(check));
+                answer.add(String.valueOf(check));
             }
 
         }
