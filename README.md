@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/jisun05/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0505-the-maze-ii](https://github.com/jisun05/LeetCode/tree/master/0505-the-maze-ii) |
 | [0817-design-hashmap](https://github.com/jisun05/LeetCode/tree/master/0817-design-hashmap) |
+| [0898-transpose-matrix](https://github.com/jisun05/LeetCode/tree/master/0898-transpose-matrix) |
 | [0940-fruit-into-baskets](https://github.com/jisun05/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [1019-squares-of-a-sorted-array](https://github.com/jisun05/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [1168-duplicate-zeros](https://github.com/jisun05/LeetCode/tree/master/1168-duplicate-zeros) |
@@ -267,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/jisun05/LeetCode/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/jisun05/LeetCode/tree/master/0048-rotate-image) |
 | [0505-the-maze-ii](https://github.com/jisun05/LeetCode/tree/master/0505-the-maze-ii) |
+| [0898-transpose-matrix](https://github.com/jisun05/LeetCode/tree/master/0898-transpose-matrix) |
 ## Database
 |  |
 | ------- |
@@ -296,4 +298,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0412-fizz-buzz](https://github.com/jisun05/LeetCode/tree/master/0412-fizz-buzz) |
+| [0898-transpose-matrix](https://github.com/jisun05/LeetCode/tree/master/0898-transpose-matrix) |
 <!---LeetCode Topics End-->
