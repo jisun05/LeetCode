@@ -5,12 +5,13 @@ class Solution {
 
         int first =0;
         int second =1;
+        int third = 0;
         for(int i=2; i<=n;i++){
-            int third = first+second;
+            third = first+second;
             first = second;
             second = third;
             
         }
-        return second;
+        return third;
     }
 }
