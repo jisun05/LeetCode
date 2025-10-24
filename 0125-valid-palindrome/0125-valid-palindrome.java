@@ -1,36 +1,31 @@
 class Solution {
     public boolean isPalindrome(String s) {
 
+        
+        
+        // int first = s.charAt(0);
+        // int last = s.charAt(s.length()-1);
+          
         int first =0;
-        int last = s.length()-1;
-
-        //"A woman, a plan, a canal: Panamowa"
-
-        while(first < last){
-            
-            char currFirst = s.charAt(first);  //' '
-            char currLast = s.charAt(last);    //'w'
-            
-            if(!Character.isLetterOrDigit(currFirst)){
+        int last =s.length()-1;
+        while(first<last){
+            while(first<last && !Character.isLetterOrDigit(s.charAt(first))){
                 first++;
-            
-
             }
-            else if(!Character.isLetterOrDigit(currLast)){
+            while(first<last && !Character.isLetterOrDigit(s.charAt(last))){
                 last--;
             }
-                                        //a        a
-           
 
-                 else {
-        		if (Character.toLowerCase(currFirst) != Character.toLowerCase(currLast)) {
-        			return false;
-        		}
-        		first++;
-        		last--;
-        	}
+            if(Character.toLowerCase(s.charAt(first)) != Character.toLowerCase(s.charAt(last))){
+                return false;
+            }
 
-            
-              
-        }return true;
-}}
+            first++;
+            last--;
+        }
+
+
+
+        return true;
+    }
+}
