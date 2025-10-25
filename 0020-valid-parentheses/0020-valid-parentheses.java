@@ -1,33 +1,37 @@
 class Solution {
     public boolean isValid(String s) {
 
-        if(s == null || s.length()%2 !=0) return false;
-        Deque<Character> deque = new ArrayDeque();
+        if(s == null || s.length()<2 || s.length() %2 != 0) return false;
 
-        //닫는 괄호는 체크후 pop
-
-        for(char c: s.toCharArray()){
-            //여는 괄호들은 집어넣기
-            if(c == '(' || c == '{' || c =='['){
-                deque.push(c);
-            }else{
-                if(deque.isEmpty()) return false;
-                if(!check(deque.peek(),c)) return false;
-                deque.pop();
+        Deque<Character> stack = new ArrayDeque<>(); 
+            
+            for(int i =0; i< s.length();i++){
+                if(s.charAt(i) == '(' || 
+                   s.charAt(i) == '{' ||
+                   s.charAt(i) == '['){
+                    stack.push(s.charAt(i));
+                   }else {
+                    if(stack.isEmpty()) return false;
+                    char open = stack.peek();
+                    char close = s.charAt(i);
+                    if(!matchTrue(open,close)) return false;
+                    stack.pop();
+        
+                   }
             }
-        }
 
-        if(!deque.isEmpty()) return false;
+               
+                return stack.isEmpty();
+
 
         
-        return true;
+        
     }
+    boolean matchTrue(char open, char close){
+            if(open == '(' && close == ')') return true;
+            if(open == '[' && close == ']') return true;
+            if(open == '{' && close == '}') return true;
 
-    //맞는 괄호인지 확인
-    public boolean check(char open, char close){
-        if(open == '(' && close == ')') return true;
-        if(open == '[' && close == ']') return true;
-        if(open == '{' && close == '}') return true;
-        return false;
-    }
+            return false;
+        }
 }
