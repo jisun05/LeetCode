@@ -1,28 +1,20 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
 
+
+        //Map
         Map<Integer, Integer> map = new HashMap<>();
-
-
-
-        
-        int index =0;
-        for(int i : nums){
-            
-            int key = target - i;
-            if(map.containsKey(key)){
-                return new int[] {map.get(key),index};
-            }else{
-                map.put(i, index);
+        int count =0;
+        for(int i: nums){
+            int check = target - i;
+            if(map.containsKey(check)){
+                return new int[]{map.get(check),count};
             }
-            index++;
+
+            map.put(i,count);
+            count++;
         }
-
-        return new int[] {-1};
-
-
-
-        
+        return new int[]{-1};
         
     }
 }
