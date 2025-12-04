@@ -4,19 +4,19 @@ class Solution {
         Map<Integer, Integer> map = new HashMap<>();
 
         for(int i: nums){
-            map.put(i,map.getOrDefault(i,0)+1);
+            map.put(i, map.getOrDefault(i,0)+1);
         }
 
-        List<Map.Entry<Integer, Integer>> result = new ArrayList<>(map.entrySet());
-        
-        result.sort((e1,e2) -> e2.getValue().compareTo(e1.getValue()));
 
-         int[] answer = new int[k];
-        for(int i =0; i< answer.length;i++){
-            answer[i] = result.get(i).getKey();
-        }
-
-        return answer;
+        List<Map.Entry<Integer,Integer>> list = new ArrayList<>(map.entrySet());
         
+            list.sort((e1,e2) -> e2.getValue().compareTo(e1.getValue()));
+
+            int[] result = new int[k];
+            for(int i=0; i<k;i++){           
+                result[i] = list.get(i).getKey();
+            }
+
+            return result;
     }
 }
